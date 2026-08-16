@@ -156,7 +156,37 @@
         </div>
         <div class="contact-action">
           <p>If you are an energy user, ecosystem partner, researcher or investor interested in reliable, sustainable energy systems, we would be glad to connect privately.</p>
-          <a class="button button-primary" href="mailto:contact@sahastitwasolutions.com">Start a conversation <span aria-hidden="true">↗</span></a>
+          <form class="contact-form" data-contact-form="Start a conversation" novalidate>
+            <div class="form-row">
+              <label class="form-field">
+                <span>Contact number</span>
+                <input type="tel" name="phone" autocomplete="tel" required placeholder="+91 98765 43210">
+              </label>
+              <label class="form-field">
+                <span>Contact email</span>
+                <input type="email" name="email" autocomplete="email" required placeholder="you@example.com">
+              </label>
+            </div>
+            <label class="form-field">
+              <span>Preferred mode of contact</span>
+              <select name="contact_mode" required>
+                <option value="" disabled selected>Select one</option>
+                <option value="WhatsApp">WhatsApp</option>
+                <option value="Email">Email</option>
+                <option value="Phone call">Phone call</option>
+              </select>
+            </label>
+            <label class="form-field">
+              <span>Project or problem description</span>
+              <textarea name="project_description" rows="3" required placeholder="Briefly describe what you are working on or the challenge you need help with."></textarea>
+            </label>
+            <label class="form-field">
+              <span>Short message</span>
+              <textarea name="message" rows="2" required placeholder="Anything else you would like us to know before we connect."></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Start a conversation <span aria-hidden="true">↗</span></button>
+            <p class="form-note">Your details will open in WhatsApp so you can send them directly to our team.</p>
+          </form>
         </div>
       </div>
     </section>

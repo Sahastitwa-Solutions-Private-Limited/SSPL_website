@@ -29,3 +29,35 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
 document.querySelector('[data-year]').textContent = new Date().getFullYear();
+
+const WHATSAPP_NUMBER = '919944865583';
+
+document.querySelectorAll('[data-contact-form]').forEach((form) => {
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    const data = new FormData(form);
+    const context = form.dataset.contactForm || 'Website enquiry';
+    const message = [
+      'Hello Sahastitwa Solutions,',
+      '',
+      `*${context}*`,
+      '',
+      `*Contact No:* ${data.get('phone')}`,
+      `*Email:* ${data.get('email')}`,
+      `*Preferred contact:* ${data.get('contact_mode')}`,
+      '',
+      '*Project / Problem:*',
+      data.get('project_description'),
+      '',
+      '*Message:*',
+      data.get('message'),
+    ].join('\n');
+
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
+  });
+});
