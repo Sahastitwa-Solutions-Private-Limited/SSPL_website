@@ -44,6 +44,7 @@ const enquiryText = (data, context) => [
   `*Role:* ${data.get('role')}`,
   `*Contact No:* ${data.get('phone')}`,
   `*Email:* ${data.get('email')}`,
+  `*Interest:* ${data.get('interest')}`,
   `*Preferred contact:* ${data.get('contact_mode')}`,
   '',
   '*Project / Problem:*',

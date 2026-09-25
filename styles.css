@@ -548,6 +548,7 @@ body { background: #ffffff; }
 .outcome-list, .outcome { border-color: rgba(255,255,255,.22); }
 .outcome > span { color: #d7ff76; }
 .outcome p { color: #d1e5f5; }
+.outcome a { color: #d7ff76; font-weight: 700; }
 
 .audience-section { background: linear-gradient(180deg, #f5fbff, #edf8ee); }
 .audience-line { border-color: #bfd8e7; }
