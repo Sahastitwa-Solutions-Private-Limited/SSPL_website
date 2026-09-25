@@ -2,62 +2,128 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <script>document.documentElement.classList.add("js")</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sahastitwa Solutions is working toward a future where available energy can be captured, stored and used more intelligently—for reliable and sustainable power for everyone.">
+  <title>Custom Deep-Tech Hardware for Energy and Industry | Sahastitwa Solutions</title>
+  <meta name="description" content="Sahastitwa Solutions designs and prototypes indigenous hardware for renewable energy, power electronics, embedded systems, robotics, and industrial automation. Based in India, for plants, OEMs, and energy teams.">
+  <link rel="canonical" href="https://sahastitwa.in/">
+  <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0846a6">
-  <title>Sahastitwa Solutions | A Reliable, Sustainable Energy Future</title>
-  <link rel="icon" href="assets/sahastitwa-logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sahastitwa Solutions">
+  <meta property="og:url" content="https://sahastitwa.in/">
+  <meta property="og:title" content="Custom Deep-Tech Hardware for Energy and Industry | Sahastitwa Solutions">
+  <meta property="og:description" content="R&amp;D and prototyping for power electronics, embedded systems, robotics, and industrial automation.">
+  <meta property="og:image" content="https://sahastitwa.in/assets/sahastitwa-logo.webp">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://sahastitwa.in/#organization",
+        "name": "Sahastitwa Solutions Private Limited",
+        "url": "https://sahastitwa.in/",
+        "logo": "https://sahastitwa.in/assets/sahastitwa-logo.webp",
+        "description": "Indian deep-tech engineering company designing and prototyping indigenous hardware for renewable energy, power electronics, embedded systems, robotics, and industrial automation.",
+        "areaServed": "IN",
+        "knowsAbout": ["Renewable energy", "Power electronics", "Embedded systems", "Robotics", "Industrial automation"]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://sahastitwa.in/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does Sahastitwa Solutions do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sahastitwa Solutions Private Limited designs and prototypes indigenous hardware for renewable energy, power electronics, embedded systems, robotics, and industrial automation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who do you work with?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We work with industrial plants, energy-intensive businesses, renewable-energy companies, OEMs, and technology teams that need a custom hardware system."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you sell a catalogue product?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Engagements start from the operating problem. We research, prototype, and develop the hardware and control system that problem requires, including work that stays confidential."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I start a project?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Send your name, company, role, and a short description of the challenge through the enquiry form. You can ask to be contacted by email, phone, or WhatsApp."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header" data-header>
     <a class="brand" href="#top" aria-label="Sahastitwa Solutions home">
-      <img src="assets/sahastitwa-logo.png" alt="Sahastitwa Solutions logo">
+      <picture>
+        <source srcset="assets/sahastitwa-logo.webp" type="image/webp">
+        <img src="assets/sahastitwa-logo.png" width="46" height="46" alt="Sahastitwa Solutions logo">
+      </picture>
       <span><strong>Sahastitwa</strong><small>Solutions Pvt. Ltd.</small></span>
     </a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
       <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
     </button>
     <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-nav>
-      <a href="#challenge">The challenge</a>
-      <a href="#vision">Our vision</a>
+      <a href="#work">What we build</a>
+      <a href="#audience">Who it is for</a>
       <a href="custom-solutions.html">Custom solutions</a>
-      <a href="#about">About</a>
-      <a class="nav-cta" href="#contact">Stay connected</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#contact">Discuss a project</a>
     </nav>
   </header>
 
   <main id="main">
-    <section class="hero coming-soon-hero" id="top">
+    <section class="hero" id="top">
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="hero-glow hero-glow-blue" aria-hidden="true"></div>
       <div class="hero-glow hero-glow-green" aria-hidden="true"></div>
 
       <div class="container hero-layout">
-        <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span> Energy harvesting · Storage · Intelligent management</p>
-          <div class="coming-soon-label">Coming soon</div>
-          <h1>Reliable, sustainable energy.<br><em>For everyone.</em></h1>
-          <p class="hero-intro">We envision a future where energy available around us can be captured, stored and used more intelligently—helping people, businesses and communities access dependable power with less waste.</p>
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Power electronics · Embedded systems · Robotics · Automation</p>
+          <h1>Custom hardware<br><em>for energy and industry.</em></h1>
+          <p class="hero-intro">Sahastitwa Solutions is an Indian deep-tech engineering company. We research, prototype, and develop indigenous hardware that captures, converts, and controls energy, and that automates industrial machines.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#contact">Stay informed <span aria-hidden="true">↗</span></a>
-            <a class="button button-ghost" href="#challenge">Why this matters</a>
+            <a class="button button-primary" href="#contact">Discuss a project <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="custom-solutions.html">See how we work</a>
           </div>
-          <p class="development-note">Currently in development · More will be revealed at the right time</p>
         </div>
 
-        <div class="future-visual reveal" aria-label="Abstract visualization representing a cleaner and more reliable energy future">
+        <div class="future-visual" aria-label="Four engineering disciplines: power electronics, embedded systems, robotics, and industrial automation">
           <div class="future-ring ring-a"></div>
           <div class="future-ring ring-b"></div>
           <div class="future-ring ring-c"></div>
           <div class="future-core">
             <span>S</span>
-            <small>A new energy<br>future is forming</small>
+            <small>Hardware<br>for real duty</small>
           </div>
           <div class="future-dot dot-a"></div>
           <div class="future-dot dot-b"></div>
@@ -66,36 +132,44 @@
       </div>
 
       <div class="hero-footer container">
-        <span>Explore the challenge</span>
+        <span>India · R&amp;D and prototyping</span>
         <div class="scroll-line"></div>
-        <p>One shared vision:<br>make every unit of energy count.</p>
+        <p>For plants, OEMs,<br>and energy teams.</p>
       </div>
     </section>
 
-    <section class="problem section" id="challenge">
+    <section class="problem section" id="work">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow dark"><span></span> The challenge</p>
-          <h2>Energy is everywhere. Reliable access to it is not.</h2>
-          <p>Energy is generated in different places, at different times and from different sources. Too often, it is lost, unavailable when needed, or difficult to use efficiently.</p>
+        <div class="section-heading">
+          <p class="eyebrow dark"><span></span> What we build</p>
+          <h2>Hardware for the way energy and machines actually run.</h2>
+          <p class="answer">We take a focused technical problem through research and a working prototype: power conversion, embedded control, robotics, or an automated industrial process.</p>
         </div>
-
-        <div class="problem-list">
-          <article class="problem-row reveal">
-            <span class="row-number">01</span>
-            <h3>Available energy goes unused</h3>
-            <p>Renewable and ambient energy is naturally variable. Without practical ways to capture and preserve it, valuable energy can be lost before it becomes useful.</p>
-          </article>
-          <article class="problem-row reveal">
-            <span class="row-number">02</span>
-            <h3>Supply and demand rarely align</h3>
-            <p>Energy may be available at one moment and needed at another. This mismatch affects homes, businesses, infrastructure and communities alike.</p>
-          </article>
-          <article class="problem-row reveal">
-            <span class="row-number">03</span>
-            <h3>Energy systems remain fragmented</h3>
-            <p>Different sources, storage options and user needs do not always work together effectively, making the transition to sustainable energy more complex than it should be.</p>
-          </article>
+        <div class="offer-grid">
+          <a class="offer-card" href="custom-solutions.html#power">
+            <span>01</span>
+            <h3>Power electronics</h3>
+            <p>Conversion, control, and protection hardware for renewable and industrial power, built around the electrical duty you specify.</p>
+            <strong>View this discipline</strong>
+          </a>
+          <a class="offer-card" href="custom-solutions.html#embedded">
+            <span>02</span>
+            <h3>Embedded systems</h3>
+            <p>Firmware and device logic that sense operating conditions and control hardware reliably in the field.</p>
+            <strong>View this discipline</strong>
+          </a>
+          <a class="offer-card" href="custom-solutions.html#robotics">
+            <span>03</span>
+            <h3>Robotics</h3>
+            <p>Application-specific machines that sense, decide, and act, from concept through mechatronic integration.</p>
+            <strong>View this discipline</strong>
+          </a>
+          <a class="offer-card" href="custom-solutions.html#automation">
+            <span>04</span>
+            <h3>Industrial automation</h3>
+            <p>Control systems and workflow integration for plants that need a process to be safer, repeatable, and easier to run.</p>
+            <strong>View this discipline</strong>
+          </a>
         </div>
       </div>
     </section>
@@ -103,89 +177,134 @@
     <section class="vision-section section" id="vision">
       <div class="vision-grid" aria-hidden="true"></div>
       <div class="container vision-layout">
-        <div class="section-heading light reveal">
-          <p class="eyebrow"><span></span> Our vision</p>
-          <h2>Make energy available when and where it matters.</h2>
-          <p>We believe a sustainable energy future depends on connecting energy harvesting, storage and intelligent use around real human needs.</p>
+        <div class="section-heading light">
+          <p class="eyebrow"><span></span> How the work is shaped</p>
+          <h2>From an energy or machine problem to a prototype you can test.</h2>
+          <p>A useful system has to harvest or receive energy, hold it, control it, and put it to work under real constraints.</p>
         </div>
-
         <div class="outcome-list">
-          <article class="outcome reveal"><span>01</span><div><h3>Harvest more</h3><p>Make better use of renewable and otherwise underutilised energy available across different environments.</p></div></article>
-          <article class="outcome reveal"><span>02</span><div><h3>Preserve what matters</h3><p>Store energy so availability is not limited to the moment in which it is generated.</p></div></article>
-          <article class="outcome reveal"><span>03</span><div><h3>Use it intelligently</h3><p>Match available energy with changing needs while reducing avoidable waste.</p></div></article>
-          <article class="outcome reveal"><span>04</span><div><h3>Enable reliable access</h3><p>Support a future in which cleaner, dependable energy can serve people and progress everywhere.</p></div></article>
+          <article class="outcome"><span>01</span><div><h3>Harvest and convert</h3><p>Make renewable and otherwise unused energy available as controlled electrical power.</p></div></article>
+          <article class="outcome"><span>02</span><div><h3>Store and protect</h3><p>Hold energy so supply is not limited to the moment it is generated, with protection suited to the duty.</p></div></article>
+          <article class="outcome"><span>03</span><div><h3>Control in the field</h3><p>Embedded control matches available power and machine behaviour to changing load.</p></div></article>
+          <article class="outcome"><span>04</span><div><h3>Automate the task</h3><p>Robotics and industrial automation turn that control into repeatable work on the line or in the plant.</p></div></article>
         </div>
       </div>
     </section>
 
-    <section class="audience-section section">
+    <section class="audience-section section" id="audience">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow dark"><span></span> A platform vision with broad potential</p>
-          <h2>Beginning with focused use cases. Built around a much larger future.</h2>
-          <p>Industrial MSMEs are an important first step for learning and validation. The broader opportunity extends wherever energy must be captured, preserved and made reliably available.</p>
+        <div class="section-heading">
+          <p class="eyebrow dark"><span></span> Who it is for</p>
+          <h2>Teams that need custom hardware, not a catalogue fit.</h2>
+          <p class="answer">We work with organisations that already know the operating problem and need an engineering partner to research and prototype the system.</p>
         </div>
-        <div class="audience-line reveal">
-          <span>Industry</span><i></i><span>Infrastructure</span><i></i><span>Communities</span><i></i><span>Everyday life</span>
+        <div class="audience-line">
+          <span>Industrial plants</span><i></i><span>Energy companies</span><i></i><span>OEMs</span><i></i><span>Technology teams</span>
         </div>
       </div>
     </section>
 
     <section class="about section" id="about">
       <div class="container about-layout">
-        <div class="about-mark reveal">
-          <img src="assets/sahastitwa-logo.png" alt="" aria-hidden="true">
+        <div class="about-mark">
+          <picture>
+            <source srcset="assets/sahastitwa-logo.webp" type="image/webp">
+            <img src="assets/sahastitwa-logo.png" width="640" height="640" alt="Sahastitwa Solutions mark">
+          </picture>
         </div>
-        <div class="about-copy reveal">
+        <div class="about-copy">
           <p class="eyebrow dark"><span></span> About Sahastitwa</p>
-          <h2>Working toward a more connected energy future.</h2>
-          <p>Sahastitwa Solutions Private Limited is an early-stage Indian energy company exploring how multiple sources of energy and storage can work together more effectively.</p>
-          <p>We are building integrated power-electronics subsystems that bring purpose-built hardware and intelligent software together for reliable, sustainable energy applications.</p>
-          <p>Our work is currently under development. We are listening, learning and building carefully before sharing more.</p>
-          <div class="founders"><span>Our commitment</span><strong>Practical innovation · Responsible development · Sustainable energy for everyone</strong></div>
+          <h2>An Indian engineering company for indigenous hardware.</h2>
+          <p>Sahastitwa Solutions Private Limited designs reliable hardware for renewable energy, power electronics, embedded systems, robotics, and industrial automation.</p>
+          <p>The name means coexistence: electrical, mechanical, and software disciplines working together without forcing a fixed product onto the problem.</p>
+          <p>Some engagements stay private. Relevant experience is shared in a direct conversation when confidentiality allows.</p>
+          <div class="founders"><span>How we practise</span><strong>Research · Prototype · Develop for real duty</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow dark"><span></span> Questions buyers ask</p>
+          <h2>Straight answers before a first conversation.</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>What does Sahastitwa Solutions do?</summary>
+            <p>We design and prototype indigenous hardware for renewable energy, power electronics, embedded systems, robotics, and industrial automation. The work covers research, a working prototype, and development of the system your duty requires.</p>
+          </details>
+          <details>
+            <summary>Who do you work with?</summary>
+            <p>Industrial plants, energy-intensive businesses, renewable-energy companies, OEMs, and technology teams that need custom engineering rather than an off-the-shelf unit.</p>
+          </details>
+          <details>
+            <summary>Do you sell a catalogue product?</summary>
+            <p>No. We start from the operating problem, constraints, and definition of success, then research and prototype the hardware and control approach that fits.</p>
+          </details>
+          <details>
+            <summary>How do I start a project?</summary>
+            <p>Use the form on this page. Include your company, role, and the challenge. Choose email, phone, or WhatsApp, and the enquiry is stored for the team as well as opened in WhatsApp when you ask for that.</p>
+          </details>
         </div>
       </div>
     </section>
 
     <section class="contact section" id="contact">
       <div class="contact-grid" aria-hidden="true"></div>
-      <div class="container contact-layout reveal">
+      <div class="container contact-layout">
         <div>
-          <p class="eyebrow"><span></span> Stay connected</p>
-          <h2>Something meaningful is taking shape.</h2>
+          <p class="eyebrow"><span></span> Start a project</p>
+          <h2>Tell us the problem you need engineered.</h2>
         </div>
         <div class="contact-action">
-          <p>If you are an energy user, ecosystem partner, researcher or investor interested in reliable, sustainable energy systems, we would be glad to connect privately.</p>
-          <form class="contact-form" data-contact-form="Start a conversation" novalidate>
+          <p>Share the operating environment, the constraint, and what a successful prototype would prove. We reply to qualified industrial, energy, OEM, and technology enquiries.</p>
+          <form class="contact-form" name="project-enquiry" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" data-contact-form="Homepage enquiry" novalidate>
+            <input type="hidden" name="form-name" value="project-enquiry">
+            <p class="hp-field" hidden><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
             <div class="form-row">
+              <label class="form-field">
+                <span>Your name</span>
+                <input type="text" name="name" autocomplete="name" required placeholder="Your name">
+              </label>
+              <label class="form-field">
+                <span>Company</span>
+                <input type="text" name="company" autocomplete="organization" required placeholder="Company or organisation">
+              </label>
+            </div>
+            <div class="form-row">
+              <label class="form-field">
+                <span>Your role</span>
+                <input type="text" name="role" autocomplete="organization-title" required placeholder="Engineering, operations, founder">
+              </label>
               <label class="form-field">
                 <span>Contact number</span>
                 <input type="tel" name="phone" autocomplete="tel" required placeholder="+91 98765 43210">
               </label>
-              <label class="form-field">
-                <span>Contact email</span>
-                <input type="email" name="email" autocomplete="email" required placeholder="you@example.com">
-              </label>
             </div>
+            <label class="form-field">
+              <span>Contact email</span>
+              <input type="email" name="email" autocomplete="email" required placeholder="you@company.com">
+            </label>
             <label class="form-field">
               <span>Preferred mode of contact</span>
               <select name="contact_mode" required>
                 <option value="" disabled selected>Select one</option>
-                <option value="WhatsApp">WhatsApp</option>
                 <option value="Email">Email</option>
                 <option value="Phone call">Phone call</option>
+                <option value="WhatsApp">WhatsApp</option>
               </select>
             </label>
             <label class="form-field">
               <span>Project or problem description</span>
-              <textarea name="project_description" rows="3" required placeholder="Briefly describe what you are working on or the challenge you need help with."></textarea>
+              <textarea name="project_description" rows="4" required placeholder="Duty, environment, and what a successful prototype would prove."></textarea>
             </label>
-            <label class="form-field">
-              <span>Short message</span>
-              <textarea name="message" rows="2" required placeholder="Anything else you would like us to know before we connect."></textarea>
-            </label>
-            <button class="button button-primary" type="submit">Start a conversation <span aria-hidden="true">↗</span></button>
-            <p class="form-note">Your details will open in WhatsApp so you can send them directly to our team.</p>
+            <div class="form-actions">
+              <button class="button button-primary" type="submit">Send enquiry <span aria-hidden="true">↗</span></button>
+              <button class="button button-quiet" type="button" data-whatsapp>Open in WhatsApp</button>
+            </div>
+            <p class="form-note">Send enquiry stores the brief for our team. WhatsApp is optional and opens a prefilled message.</p>
+            <p class="form-status" data-form-status hidden></p>
           </form>
         </div>
       </div>
@@ -195,8 +314,12 @@
   <footer class="site-footer">
     <div class="container">
       <a class="brand footer-brand" href="#top"><span><strong>Sahastitwa</strong><small>Solutions Pvt. Ltd.</small></span></a>
-      <p>Harvest · Store · Connect · Sustain</p>
-      <p>© <span data-year></span> Sahastitwa Solutions Private Limited</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="custom-solutions.html">Custom solutions</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p>© <span data-year></span> Sahastitwa Solutions Private Limited · India</p>
     </div>
   </footer>
 

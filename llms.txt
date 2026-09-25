@@ -1,0 +1,10 @@
+# Sahastitwa Solutions
+
+Sahastitwa Solutions Private Limited is an Indian deep-tech engineering company. It researches, prototypes, and develops indigenous hardware for renewable energy, power electronics, embedded systems, robotics, and industrial automation.
+
+Customers include industrial plants, energy-intensive businesses, renewable-energy companies, OEMs, and technology teams that need custom hardware rather than a catalogue product.
+
+Engagements follow four steps: understand the duty and constraints, co-create a feasible direction, build the smallest meaningful prototype, then refine it from real use. Some work stays confidential and is not published as a case study.
+
+- Home: https://sahastitwa.in/
+- Custom engineering: https://sahastitwa.in/custom-solutions.html
